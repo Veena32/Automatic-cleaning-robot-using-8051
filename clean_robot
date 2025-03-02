@@ -1,0 +1,24 @@
+#include <reg51.h> 
+sbit Motor1_1=P1^0;  // 
+DC Motor 1 
+sbit Motor1_2 = 
+P1^1;  // DC Motor 
+1 
+sbit Motor2_1 = 
+P1^2;  // DC Motor 
+2 
+sbit Motor2_2 = 
+P1^3;  // DC Motor 
+2 
+sbit SensorLeft = 
+P2^1;  // Left IR 
+Sensor 
+sbit SensorRight = 
+P2^2; // Right IR 
+Sensor 
+ 
+void 
+delay(unsigned int 
+time) { 
+    unsigned int i, j; 
+1
